@@ -5,6 +5,7 @@ import TileLayer from "ol/layer/Tile";
 import { OSM } from "ol/source";
 import * as olProj from 'ol/proj';
 import { defaults } from 'ol/interaction/defaults';
+import "ol/ol.css";
 
 const Map: React.FC = () => {  
   const mapElement = useRef<HTMLDivElement>(null);
